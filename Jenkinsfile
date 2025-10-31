@@ -13,7 +13,7 @@ pipeline {
             steps {
                 sh '''
                     ls -la
-                    mvn -v
+                    mvn clean install
                 '''
             }
         }
